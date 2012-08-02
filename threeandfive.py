@@ -5,5 +5,5 @@ def naturalRangeAdder(min, max):
 			x = x + i
 	return x
 	
-print naturalRangeAdder(0,1000)
-
+if __name__ == "__main__":
+	print naturalRangeAdder(0,1000)

@@ -17,4 +17,5 @@ def largestPrimer(n):
 			x = i
 	return x
 
-print largestPrimer(600851475143)
+if __name__ == "__main__":
+	print largestPrimer(600851475143)

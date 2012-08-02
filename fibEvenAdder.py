@@ -11,5 +11,5 @@ def fibEvenAdder():
 		j = k
 	return x
 
-
-print fibEvenAdder()
+if __name__ == "__main__":
+	print fibEvenAdder()

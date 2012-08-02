@@ -10,4 +10,5 @@ def palindrome():
 		str(i)[2] == str(i)[3] and threeDigit(i):
 			return i
 
-print palindrome()
+if __name__ == "__main__":
+	print palindrome()

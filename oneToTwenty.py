@@ -12,4 +12,5 @@ def oneToTwenty():
 		num = lcm(num, i)
 	return num
 
-print oneToTwenty()
+if __name__ == "__main__":
+	print oneToTwenty()
